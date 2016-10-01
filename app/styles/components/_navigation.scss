@@ -1,0 +1,18 @@
+.active-link {
+  font-weight: bold;
+}
+
+.top-bar, .top-bar-left ul, .top-bar-right ul {
+  background-color: $nav-background;
+}
+
+.top-bar {
+  .menu-text {
+    color: $nav-text-color;
+  }
+
+  .menu > .menu-text > a {
+    display: inline;
+    padding: 0;
+  }
+}
